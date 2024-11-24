@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horrifying Incident of Odisha</title>
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: 180vh;
+            background-position-x: center;
+        }
+        #main{
+            padding: 7%;
+            box-shadow: inset 0 -70px 70px 35px rgba(227, 0, 0, 0.363);
+        }
+        .italic{
+            font-style: italic;
+        }
+        h1{
+            margin-top: 6vh;
+            margin-bottom: 6vh;
+        }
+        h2{
+            margin-bottom: 2vh;
+        }
+        p{
+            margin-bottom: 5vh;
+            font-family:  "Mona Sans", sans-serif;
+        }
+        .fp{
+            margin-bottom: 2vh;
+        }
+        
+        #span{
+            font-family:  "Mona Sans", sans-serif;
+            margin-bottom: 5vh;
+        }
+        #head{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-shadow: 0px 20px 70px 35px rgba(227, 0, 0, 0.9);
+            background-image: linear-gradient(red, rgba(227, 0, 0, 0.7));
+            color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(255, 0, 0);
+            padding:1%;
+            height: 5vh;
+
+        }
+        #head img{
+            border-radius: 50%;
+            border: 2px solid white;
+            height: 100%;
+        }
+        #redtext{
+            color: red;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            pointer-events: none;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+
+
+    <div class="overlay"></div>
+
+
+    <div id="box" style="display: none;" >
+        <img id="image" src="jumpscare.jpg" alt="Image">
+    </div>
+
+    <div id="head">
+        <img src="logo.png" alt="Logo">
+        MSN News <span id="redtext">...</span>
+    </div>
+    
+<div id="main">
+
+    <h1>Horrifying Incident of Odisha: A Terrifying Case That Will Shake Your Core – Warning: Proceed at Your Own Risk!</h1>
+    <div id="span"><span class="italic">This is not a story for the faint of heart.</span><span> A chilling incident from Baleswar Village in Odisha has sent shockwaves through the nation, rattling the very core of humanity. What was once a peaceful village is now the setting for a gruesome and unimaginable crime that defies all logic, decency, and moral sense. If you are someone with a weak heart, we strongly advise you to stop reading now—this case is so horrifying that it might haunt you forever.</span></div>
+    
+    <h2>A Sin Against Humanity: The Unthinkable Crime in Baleswar</h2>
+    <p class="fp">On the night of the 1st of November, something so monstrous took place in Baleswar Village that it has left everyone speechless. What started as a quiet, routine evening quickly transformed into a scene of terror and unimaginable suffering. A local man, whose name remains hidden in the depths of this case's horror, committed an act so vile that even the hardest of hearts cannot remain untouched by the gravity of his actions.</p>
+    <p class="italic">Warning: What you are about to read is so disturbing that it challenges the very essence of human decency. The details are not just shocking—they are gut-wrenching.</p>
+    
+    <h2>The Crime So Terrible, It Will Make You Question Humanity</h2>
+    <p class="fp">What unfolded in Baleswar was nothing short of a nightmare. Reports indicate that the accused, in a fit of rage, carried out an act so heinous that it defies comprehension. According to sources, the crime involved brutal, unfathomable cruelty—one that has left authorities in a state of disbelief. The brutality involved is beyond words. This wasn't just an act of violence; it was something far worse. The authorities are still piecing together the gruesome details, but it is clear that this case is unlike any other in the region’s history.</p>
+    <p>The impact of this crime has been so severe that local residents are reportedly still in shock. The crime has cast a long, dark shadow over Baleswar. Families are fearful, hearts are broken, and the very fabric of trust has been shattered.</p>
+    
+    <h2>A Sinister Act of Evil That Defies Imagination</h2>
+    <p class="fp">What is so chilling about this case is not only the sheer depravity of the act but the utter lack of remorse displayed by the individual responsible. To carry out such an atrocity without a second thought is a horror few could have ever predicted.</p>
+    <p>What drives a person to commit an act so grotesque? How does someone lose all semblance of humanity, descending into such dark, twisted depths? The case in Baleswar is a chilling reminder of just how terrifying and unpredictable human nature can be.</p>
+</div>
+
+
+<script>
+
+    var maindictate = new Audio('main-dictation.mp3');
+    maindictate.play();
+    maindictate.volume = 0.05;
+
+    setTimeout(() => {
+        document.body.style.backgroundImage = 'url("jumpscare.jpg")';
+        document.getElementById('head').style.display = 'none';
+        document.getElementById('main').style.display = 'none';
+        
+        var audio = new Audio('audio_file.mp3');
+        audio.play();
+
+}, 21000);
+
+  </script>
+
+
+</body>
+</html>
